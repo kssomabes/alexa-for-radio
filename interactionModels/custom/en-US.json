@@ -1,0 +1,387 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "daily listen",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayAudio",
+          "slots": [
+            {
+              "name": "station",
+              "type": "Station"
+            }
+          ],
+          "samples": [
+            "i want to go to {station}",
+            "start to play",
+            "begin to play",
+            "play the music",
+            "play station in {station} ",
+            "turn {station} station",
+            "play the radio",
+            "start the music",
+            "begin to play the radio",
+            "can you start to play",
+            "listen to the {station}",
+            "start to play my radio",
+            "can you play",
+            "radio on",
+            "play my radio",
+            "play my radio please",
+            "start my radio",
+            "start my radio please",
+            "start the radio",
+            "start the radio please",
+            "listen to {station}",
+            "play {station} station"
+          ]
+        },
+        {
+          "name": "AboutIntent",
+          "slots": [],
+          "samples": [
+            "about",
+            "what is this",
+            "tell me about this"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help me",
+            "how does this work",
+            "what should i do"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Dreamboats and Petticoats",
+                "synonyms": [
+                  "dreamboats \u0026 petticoats",
+                  "dreamboats and petticoats",
+                  "petticoats",
+                  "dreamboats"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Motown",
+                "synonyms": [
+                  "motown"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Decades",
+                "synonyms": [
+                  "decades"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Rock And Roll",
+                "synonyms": [
+                  "rock \u0027n roll",
+                  "rock and roll"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Romance",
+                "synonyms": [
+                  "romance"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Psychedelic",
+                "synonyms": [
+                  "psychedelic"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Legends",
+                "synonyms": [
+                  "legends"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Just Rock",
+                "synonyms": [
+                  "just rock"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Classic Rock",
+                "synonyms": [
+                  "classic rock"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Disco",
+                "synonyms": [
+                  "disco"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Reggae",
+                "synonyms": [
+                  "reggae"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Serene",
+                "synonyms": [
+                  "serene"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "The ‘60s",
+                "synonyms": [
+                  "the \u002760s",
+                  "the sixties"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Northern Soul",
+                "synonyms": [
+                  "northern soul"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Pop Party",
+                "synonyms": [
+                  "pop party"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Hot Country",
+                "synonyms": [
+                  "hot country"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "The ‘70s",
+                "synonyms": [
+                  "the \u002770s",
+                  "the seventies"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "The ‘80s",
+                "synonyms": [
+                  "the eighties",
+                  "the \u002780s"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Smooth Jazz",
+                "synonyms": [
+                  "smooth jazz"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Dance Rock",
+                "synonyms": [
+                  "dance rock"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Soul"
+              }
+            },
+            {
+              "name": {
+                "value": "Punk"
+              }
+            }
+          ],
+          "name": "Station"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "PlayAudio",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "station",
+              "type": "Station",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "isInSet",
+                  "prompt": "Slot.Validation.156212154838.1628870628477.1349438982210",
+                  "values": [
+                    "romance",
+                    "Smooth Jazz",
+                    "Punk",
+                    "soul",
+                    "Dreamboats and Petticoats",
+                    "disco",
+                    "dance rock",
+                    "Classic Rock",
+                    "Northern Soul",
+                    "classic rock",
+                    "Psychedelic",
+                    "Dance Rock",
+                    "dreamboats and petticoats",
+                    "just rock",
+                    "psychedelic",
+                    "Decades",
+                    "legends",
+                    "pop party",
+                    "northern soul",
+                    "Hot Country",
+                    "Motown",
+                    "Just Rock",
+                    "motown",
+                    "smooth jazz",
+                    "Legends",
+                    "Romance",
+                    "rock and roll",
+                    "Soul",
+                    "Disco",
+                    "punk",
+                    "The \u002760s",
+                    "Pop Party",
+                    "Reggae",
+                    "Serene",
+                    "The \u002780s",
+                    "decades",
+                    "The \u002770s",
+                    "hot country",
+                    "the \u002780s",
+                    "serene",
+                    "the \u002770s",
+                    "the \u002760s",
+                    "Rock and Roll",
+                    "reggae"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Confirm.Intent.504074174837",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "There is only twenty-two stations covered for this skill. Please check with the list of the supported stations."
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.156212154838.1628870628477.1349438982210",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "The station you mentioned is not supported yet. There is only twenty-two stations covered for this skill. Please check with the list of the supported stations."
+          }
+        ]
+      }
+    ]
+  },
+  "version": "15"
+}
